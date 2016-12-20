@@ -94,17 +94,5 @@ public class WelcomeController {
     }
 
 
-    @RequestMapping(value={"/oneToManyUniCriteria"},method=RequestMethod.GET)
-    public void oneToManyUniCriteria(){
-        System.out.println("***************************Criteria Queries******************************");
-        System.out.println("***************************Criteria Queries******************************");
-//        oneToManyUnidirectionalService.criteria();
-//        oneToManyUnidirectionalService.projections();
-        oneToManyUnidirectionalService.pagintion();
-        System.out.println("***************************Criteria Queries******************************");
-        System.out.println("***************************Criteria Queries******************************");
-    }
-
-
 
 }
