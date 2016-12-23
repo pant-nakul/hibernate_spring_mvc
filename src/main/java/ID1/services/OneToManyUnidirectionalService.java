@@ -83,15 +83,15 @@ public class OneToManyUnidirectionalService {
             Transaction transaction = session.beginTransaction();
             Criteria criteria = session.createCriteria(EmployeeEntity.class);
 
-          /*  criteria.add(Restrictions.eq("email", "demo-user-second@mail.com"));
+            criteria.add(Restrictions.eq("email", "demo-user-second@mail.com"));
             criteria.add(Restrictions.gt("age", 25));
 //            criteria.add(Restrictions.like("firstName", "demo%"));
-            criteria.add(Restrictions.like("firstName", "demo", MatchMode.START));*/
+            criteria.add(Restrictions.like("firstName", "demo", MatchMode.START));
 //        OR
-            SimpleExpression ageLessThan = Restrictions.lt("age", 25);
+           /* SimpleExpression ageLessThan = Restrictions.lt("age", 25);
             SimpleExpression name = Restrictions.like("firstName", "demo-two", MatchMode.START);
             LogicalExpression logicalExpression = Restrictions.or(name, ageLessThan);
-            criteria.add(logicalExpression);
+            criteria.add(logicalExpression);*/
 
 //            Using Disjunction
           /*  Criterion ageLessThan = Restrictions.lt("age", 25);
@@ -116,12 +116,12 @@ public class OneToManyUnidirectionalService {
             criteria.add(conjunction);*/
 
 //        For Sorting Query Results
-            criteria.add(Restrictions.gt("age", 25));
+           /* criteria.add(Restrictions.gt("age", 25));
             criteria.add(Restrictions.like("firstName", "demo", MatchMode.START));
-            criteria.addOrder(Order.desc("age"));
+            criteria.addOrder(Order.desc("age"));*/
 
 
-            List<EmployeeEntity> list = criteria.list();
+       /*     List<EmployeeEntity> list = criteria.list();
             System.out.println("****************************SIZE**************************************"+list.size());
 
             System.out.println("=======================================================" + list.size());
@@ -139,9 +139,8 @@ public class OneToManyUnidirectionalService {
                     System.out.println("================ACCOUNT NUMBER===============" + accountEntity.getAccountNumber());
                 }
                 System.out.println("_______________________________________________________________________________________");
-            }
+            }*/
 
-/*
 //        to find the Employee whose account contains more than 500 in desc order of account using manyToOne
         Criteria accountCriteria=session.createCriteria(AccountEntity.class);
         accountCriteria.add(Restrictions.ge("deposit",500));
@@ -159,7 +158,7 @@ public class OneToManyUnidirectionalService {
             System.out.println("====================AGE=====================" + accountEntity.getEmployee().getAge());
             System.out.println("====================LAST NAME=====================" + accountEntity.getEmployee().getLastName());
 
-        }*/
+        }
             transaction.commit();
             session.close();
 

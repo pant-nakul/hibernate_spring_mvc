@@ -4,9 +4,9 @@ import javax.persistence.*;
 
 @Entity
 
-/*@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
+@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 @DiscriminatorColumn(name = "VehicleType",
-        discriminatorType = DiscriminatorType.STRING)*/
+        discriminatorType = DiscriminatorType.STRING)
 public class Vehicle {
     @Id
     @GeneratedValue
