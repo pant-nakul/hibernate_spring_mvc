@@ -1,4 +1,4 @@
-package ID1.model.inheritance.singleTable.inheritance.perTablePerClass;
+package ID1.model.inheritance.singleTable.inheritance.joined;
 
 import javax.persistence.Entity;
 

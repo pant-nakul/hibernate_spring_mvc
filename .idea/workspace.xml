@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73181ed7-b59a-473d-b932-bc986fb1f355" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_ehcache_ehcache_2_7_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ID1/model/inheritance/singleTable/FourWheeler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ID1/model/inheritance/singleTable/TwoWheeler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ID1/model/inheritance/singleTable/Vehicle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ID1/model/inheritance/singleTable/inheritance/perTablePerClass/Cheque.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ID1/model/inheritance/singleTable/inheritance/perTablePerClass/CreditCard.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ID1/model/inheritance/singleTable/inheritance/perTablePerClass/Payment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ID1/services/InheritanceService.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/inplaceWebapp/WEB_INF/resources/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/inplaceWebapp/WEB_INF/views/jsp/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/libs/hibernate-springmvc.war" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/war/MANIFEST.MF" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/ID1/model/inheritance/singleTable/inheritance/perTablePerClass/Cheque.java" afterPath="$PROJECT_DIR$/src/main/java/ID1/model/inheritance/singleTable/inheritance/joined/Cheque.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/ID1/model/inheritance/singleTable/inheritance/perTablePerClass/CreditCard.java" afterPath="$PROJECT_DIR$/src/main/java/ID1/model/inheritance/singleTable/inheritance/joined/CreditCard.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/ID1/model/inheritance/singleTable/inheritance/perTablePerClass/Payment.java" afterPath="$PROJECT_DIR$/src/main/java/ID1/model/inheritance/singleTable/inheritance/joined/Payment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.2.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.2.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.2.1/taskArtifacts/taskArtifacts.bin" />
@@ -25,20 +16,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/ID1/services/StudentService.class" afterPath="$PROJECT_DIR$/build/classes/main/ID1/services/StudentService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/ID1/web/controller/StudentController.class" afterPath="$PROJECT_DIR$/build/classes/main/ID1/web/controller/StudentController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/ID1/web/controller/WelcomeController.class" afterPath="$PROJECT_DIR$/build/classes/main/ID1/web/controller/WelcomeController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___hibernate_springmvc___hibernate_springmvc_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___hibernate_springmvc___hibernate_springmvc_war.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___hibernate_springmvc___hibernate_springmvc_war__exploded_.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___hibernate_springmvc___hibernate_springmvc_war__exploded_.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/main/application.properties" afterPath="$PROJECT_DIR$/build/resources/main/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hibernate-springmvc.iml" afterPath="$PROJECT_DIR$/hibernate-springmvc.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ID1/config/HibernateConfig.java" afterPath="$PROJECT_DIR$/src/main/java/ID1/config/HibernateConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ID1/model/student/Student.java" afterPath="$PROJECT_DIR$/src/main/java/ID1/model/student/Student.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ID1/services/OneToManyUnidirectionalService.java" afterPath="$PROJECT_DIR$/src/main/java/ID1/services/OneToManyUnidirectionalService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ID1/services/OneToOneBirectionalService.java" afterPath="$PROJECT_DIR$/src/main/java/ID1/services/OneToOneBirectionalService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ID1/services/StudentService.java" afterPath="$PROJECT_DIR$/src/main/java/ID1/services/StudentService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ID1/web/controller/StudentController.java" afterPath="$PROJECT_DIR$/src/main/java/ID1/web/controller/StudentController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ID1/web/controller/WelcomeController.java" afterPath="$PROJECT_DIR$/src/main/java/ID1/web/controller/WelcomeController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ID1/services/InheritanceService.java" afterPath="$PROJECT_DIR$/src/main/java/ID1/services/InheritanceService.java" />
     </list>
     <ignored path="hibernate-springmvc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -119,7 +99,7 @@
         </entry>
       </file>
       <file leaf-file-name="Payment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ID1/model/inheritance/singleTable/inheritance/perTablePerClass/Payment.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ID1/model/inheritance/singleTable/inheritance/joined/Payment.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
@@ -163,7 +143,13 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#614#615#0" expanded="false" />
+                <element signature="e#666#667#0" expanded="false" />
+                <element signature="e#704#705#0" expanded="false" />
+                <element signature="e#755#756#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -185,7 +171,19 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="9" column="37" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="37" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#684#685#0" expanded="false" />
+                <element signature="e#716#717#0" expanded="false" />
+                <element signature="e#767#768#0" expanded="false" />
+                <element signature="e#809#810#0" expanded="false" />
+                <element signature="e#849#850#0" expanded="false" />
+                <element signature="e#885#886#0" expanded="false" />
+                <element signature="e#943#944#0" expanded="false" />
+                <element signature="e#993#994#0" expanded="false" />
+                <element signature="e#1060#1061#0" expanded="false" />
+                <element signature="e#1108#1109#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1181,6 +1179,108 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate-springmvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate-springmvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ID1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate-springmvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate-springmvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ID1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="singleTable" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate-springmvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate-springmvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ID1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="singleTable" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="joined" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -1664,12 +1764,19 @@
       <workItem from="1482428604081" duration="638000" />
       <workItem from="1482473033137" duration="5358000" />
       <workItem from="1482480157204" duration="2453000" />
-      <workItem from="1482485841798" duration="676000" />
+      <workItem from="1482485841798" duration="776000" />
     </task>
+    <task id="LOCAL-00001" summary="Criteria,Hql,inheritance">
+      <created>1482487010603</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1482487010603</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="159341000" />
+    <option name="totallyTimeSpent" value="159441000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -1686,6 +1793,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988048" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1753,6 +1861,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Criteria,Hql,inheritance" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criteria,Hql,inheritance" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1983,14 +2095,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ID1/model/inheritance/singleTable/inheritance/perTablePerClass/CreditCard.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ID1/model/inheritance/singleTable/inheritance/joined/CreditCard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ID1/model/inheritance/singleTable/inheritance/perTablePerClass/Cheque.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ID1/model/inheritance/singleTable/inheritance/joined/Cheque.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
@@ -2024,6 +2136,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="162" column="15" selection-start-line="162" selection-start-column="15" selection-end-line="162" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2031,6 +2146,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2067,7 +2183,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ID1/model/inheritance/singleTable/inheritance/perTablePerClass/Payment.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ID1/model/inheritance/singleTable/inheritance/joined/Payment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
@@ -2103,7 +2219,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#614#615#0" expanded="false" />
+            <element signature="e#666#667#0" expanded="false" />
+            <element signature="e#704#705#0" expanded="false" />
+            <element signature="e#755#756#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2121,7 +2243,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="37" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="37" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#684#685#0" expanded="false" />
+            <element signature="e#716#717#0" expanded="false" />
+            <element signature="e#767#768#0" expanded="false" />
+            <element signature="e#809#810#0" expanded="false" />
+            <element signature="e#849#850#0" expanded="false" />
+            <element signature="e#885#886#0" expanded="false" />
+            <element signature="e#943#944#0" expanded="false" />
+            <element signature="e#993#994#0" expanded="false" />
+            <element signature="e#1060#1061#0" expanded="false" />
+            <element signature="e#1108#1109#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
