@@ -21,6 +21,8 @@ dependencies {
     compile 'commons-dbcp:commons-dbcp:1.4'
     //include in compile only, exclude in the war
     providedCompile 'javax.servlet:servlet-api:2.5'
+    compile('net.sf.ehcache:ehcache:2.7.0') { exclude module: 'ehcache-root' }
+
 }
 
 

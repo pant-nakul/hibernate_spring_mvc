@@ -37,6 +37,11 @@ public class StudentService {
         id = (Integer) session.save(student);
         System.out.println("==================ID============" + student.getId());
 
+        session.save(new Student("aditya","Pandey","aditya@gmail.com",20));
+        session.save(new Student("Supriyo","sen","Supriyo@gmail.com",20));
+        session.save(new Student("Atif","Ahmed","Atif@gmail.com",24));
+
+
         transaction.commit();
 
 //        session.save(student);//works outside boundary
@@ -154,6 +159,79 @@ public class StudentService {
         session.close();
         return student;
     }
+
+    public int hqlUpdate() {
+        Session session = getSession();
+        Transaction transaction = session.beginTransaction();
+        String hql = "update Student set firstName=:firstName";
+        Query query = session.createQuery(hql);
+        query.setString("firstName", "Pankaj");
+        int numberOfRowsAffected = query.executeUpdate();
+        transaction.commit();
+        session.close();
+        return numberOfRowsAffected;
+
+
+    }
+
+    public int hqlDelete() {
+        Session session = getSession();
+        Transaction transaction = session.beginTransaction();
+        String hql = "delete from Student where firstName=:firstName";
+        Query query = session.createQuery(hql);
+        query.setString("firstName", "Pankaj");
+        int numberOfRowsAffected = query.executeUpdate();
+        transaction.commit();
+        session.close();
+        return numberOfRowsAffected;
+
+
+    }
+
+    public List<Student> hqlFrom() {
+        Session session = getSession();
+        Transaction transaction = session.beginTransaction();
+        String hql = "from Student student";
+        Query query = session.createQuery(hql);
+        List<Student> studentList = (List<Student>) query.list();
+        transaction.commit();
+        session.close();
+        return studentList;
+
+    }
+
+    public List<Object> hqlSelect() {
+        Session session = getSession();
+        Transaction transaction = session.beginTransaction();
+        String hql = "select student.lastName,student.emailAddress from Student student";
+        Query query = session.createQuery(hql);
+        List<Object> list = query.list();
+        transaction.commit();
+        session.close();
+        return list;
+
+    }
+
+    public Student firstLevelCache(Integer id) {
+        Session session = getSession();
+        Transaction transaction = session.beginTransaction();
+        Student student = (Student) session.load(Student.class, id);
+        System.out.println("************************************" + student.getFirstName());
+        System.out.println("************************************" + student.getFirstName());
+
+        //Retriving student object for second time with same id from same session
+
+/*      student=(Student)session.load(Student.class,id);
+        System.out.println("=====================================================");
+        System.out.println("************************************"+student.getFirstName());
+        System.out.println("=====================================================");*/
+
+        transaction.commit();
+        session.close();
+        return student;
+
+    }
+
 
 
 }

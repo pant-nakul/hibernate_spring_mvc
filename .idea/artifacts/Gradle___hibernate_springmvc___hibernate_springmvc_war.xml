@@ -58,8 +58,9 @@
           <element id="library" level="project" name="Gradle: org.slf4j:log4j-over-slf4j:1.7.7" />
           <element id="library" level="project" name="Gradle: org.apache.tomcat:tomcat-juli:7.0.54" />
           <element id="library" level="project" name="Gradle: commons-logging:commons-logging:1.2" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.1.2/b316e9737eea25e9ddd6d88eaeee76878045c6b2/logback-classic-1.1.2.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.1.2/2d23694879c2c12f125dac5076bdfd5d771cc4cb/logback-core-1.1.2.jar" />
+          <element id="library" level="project" name="Gradle: ch.qos.logback:logback-classic:1.1.2" />
+          <element id="library" level="project" name="Gradle: ch.qos.logback:logback-core:1.1.2" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.ehcache/ehcache/2.7.0/c8378e862704c63ab632d3db76e73a6d0c8ca28b/ehcache-2.7.0.jar" />
         </element>
       </element>
       <element id="directory" name="META-INF">

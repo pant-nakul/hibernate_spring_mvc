@@ -32,8 +32,8 @@ public class OneToOneBirectionalService {
         Session session = getSession();
         Transaction tx = session.beginTransaction();
 
-        Email_Bi email_bi = new Email_Bi("BiDIRECTIONAL");
-        Message_Bi message_bi = new Message_Bi("BIDIRECTIONAL");
+        Email_Bi email_bi = new Email_Bi("RIGHT WAY");
+        Message_Bi message_bi = new Message_Bi("RIGHT WAY");
 
         email_bi.setMessageBi(message_bi);
         message_bi.setEmail_bi(email_bi);

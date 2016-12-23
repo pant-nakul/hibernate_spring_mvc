@@ -1,9 +1,14 @@
 package ID1.model.student;
 
 
+import org.hibernate.annotations.*;
+import org.hibernate.annotations.Cache;
+
 import javax.persistence.*;
+import javax.persistence.Entity;
 
 @Entity
+@Cacheable
 public class Student {
 
     @Id

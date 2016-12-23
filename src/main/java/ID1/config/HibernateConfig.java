@@ -50,6 +50,18 @@ public class HibernateConfig {
     @Value("${hibernate.autocommit}")
     private String connectionAutoCommit;
 
+    @Value("{hibernate.generate_statistics}")
+    private String generateStatistics;
+
+    @Value("${hibernate.cache.use_second_level_cache}")
+    private String cacheUseSecondLevelCache;
+
+    @Value("${cache.provider_class}")
+    private String cacheProviderClass;
+
+    @Value("{cache.region.factory_class}")
+    private String cacheRegionFactoryClass;
+
 
     @Bean
     public LocalSessionFactoryBean sessionFactory() {
@@ -77,7 +89,11 @@ public class HibernateConfig {
         properties.put("hibernate.format_sql", hibernateFormatSql);
         properties.put("hibernate.hbm2ddl.auto", hibernateHbm2ddlAuto);
         properties.put("hibernate.current_session_context_class", currentSessionContextClass);
+        properties.put("hibernate.generate_statistics", generateStatistics);
         properties.put("hibernate.connection.autocommit", connectionAutoCommit);
+        properties.put("hibernate.cache.use_second_level_cache", cacheUseSecondLevelCache);
+        properties.put("cache.provider_class", cacheProviderClass);
+        properties.put("cache.region.factory_class", cacheRegionFactoryClass);
         return properties;
     }
 

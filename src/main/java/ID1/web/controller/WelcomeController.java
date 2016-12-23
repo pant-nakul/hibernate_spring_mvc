@@ -2,7 +2,6 @@ package ID1.web.controller;
 
 import ID1.model.student.Student;
 import ID1.services.*;
-import org.hibernate.Session;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -28,6 +27,8 @@ public class WelcomeController {
     private OneToManyBidirectionalService oneToManyBidirectionalService;
     @Autowired
     private ViewResolverUtil viewResolverUtil;
+    @Autowired
+    private InheritanceService inheritanceService;
 
     @RequestMapping(value = {"/"}, method = RequestMethod.GET)
     public ModelAndView index() {
@@ -94,5 +95,35 @@ public class WelcomeController {
     }
 
 
+    @RequestMapping(value={"/oneToManyUniCriteria"},method=RequestMethod.GET)
+    public void oneToManyUniCriteria(){
+        System.out.println("***************************Criteria Queries******************************");
+        System.out.println("***************************Criteria Queries******************************");
+        oneToManyUnidirectionalService.criteria();
+//        oneToManyUnidirectionalService.projections();
+//        oneToManyUnidirectionalService.pagintion();
+        System.out.println("***************************Criteria Queries******************************");
+        System.out.println("***************************Criteria Queries******************************");
+    }
+
+
+    @RequestMapping(value={"/inheritanceInSingleTable"},method=RequestMethod.GET)
+    public ModelAndView singleTable(){
+        System.out.println("**************************Inheritance in Single Table*****************************");
+        inheritanceService.singleTable();
+        System.out.println("**************************Inheritance in Single Table*****************************");
+        return viewResolverUtil.renderModelAndView();
+
+
+    }
+    @RequestMapping(value={"/inheritanceInJoined"},method=RequestMethod.GET)
+    public ModelAndView joined(){
+        System.out.println("**************************Inheritance in Single Table*****************************");
+        inheritanceService.joined();
+        System.out.println("**************************Inheritance in Single Table*****************************");
+        return viewResolverUtil.renderModelAndView();
+
+
+    }
 
 }
